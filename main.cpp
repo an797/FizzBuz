@@ -3,22 +3,25 @@
 using namespace std;
 
 void fizzBuzz(int n){
-    for(int i=0; i<n; i++){
+    for(int i=1; i<n; i++){
+        cout << i << endl;
         if(n%3 == 0 && n%5 == 0){
             cout << "Fizz/Buzz" << endl;
+            continue;
         }
         if(n%3 == 0){
             cout << "Fizz" << endl;
+            continue;
         }
         if(n%5 == 0){
             cout << "Buzz" << endl;
+            continue;
         }
-        cout << i << endl;
     }
 }
 
 int main()
 {
-    fizzBuzz(3);
+    fizzBuzz(2);
     return 0;
 }
