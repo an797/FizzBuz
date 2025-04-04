@@ -2,8 +2,12 @@
 
 using namespace std;
 
+void fizzBuzz(int n){
+
+}
+
 int main()
 {
-    cout << "Hello world!" << endl;
+
     return 0;
 }
