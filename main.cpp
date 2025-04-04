@@ -3,17 +3,17 @@
 using namespace std;
 
 void fizzBuzz(int n){
-    for(int i=1; i<n; i++){
+    for(int i=1; i<=n; i++){
         cout << i << endl;
-        if(n%3 == 0 && n%5 == 0){
+        if(i%3 == 0 && i%5 == 0){
             cout << "Fizz/Buzz" << endl;
             continue;
         }
-        if(n%3 == 0){
+        if(i%3 == 0){
             cout << "Fizz" << endl;
             continue;
         }
-        if(n%5 == 0){
+        if(i%5 == 0){
             cout << "Buzz" << endl;
             continue;
         }
@@ -22,6 +22,6 @@ void fizzBuzz(int n){
 
 int main()
 {
-    fizzBuzz(2);
+    fizzBuzz(5);
     return 0;
 }
