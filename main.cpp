@@ -9,11 +9,9 @@ void fizzBuzz(int n){
         }
         if(n%3 == 0){
             cout << "Fizz" << endl;
-            break;
         }
         if(n%5 == 0){
             cout << "Buzz" << endl;
-            break;
         }
         cout << i << endl;
     }
@@ -21,6 +19,6 @@ void fizzBuzz(int n){
 
 int main()
 {
-
+    fizzBuzz(3);
     return 0;
 }
