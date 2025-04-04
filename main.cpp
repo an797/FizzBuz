@@ -24,6 +24,6 @@ void fizzBuzz(int n){
 
 int main()
 {
-    fizzBuzz(5);
+    fizzBuzz(15);
     return 0;
 }
